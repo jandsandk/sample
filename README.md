@@ -1,10 +1,7 @@
-                  {
-                            "id": 9,
+                  {         "id":10
                             "data": {
-                                "hasTargetObject": true,
-                                "code": 21,
+                                "type": "tap",
                                 "testData": {
-                                    "targetOption": 1,
                                     "targetObject": {
                                         "index": "5",
                                         "text": "Phone",
