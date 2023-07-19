@@ -1,9 +1,0 @@
-SAMPLE_SCHEMA = {
-    "type": "object",
-    "required": ["id", "name"],
-    "properties": {
-        "id": {"type": "number"},
-        "name": {"type": "string"},
-        "data": {"type": "object"}
-    }
-}

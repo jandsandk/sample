@@ -1,0 +1,84 @@
+[{
+        "id": 46,
+        "data": {
+            "hasTargetObject": false,
+            "code": 26,
+            "testData": {
+                "keyOption": 1
+            }
+        },
+        "inputs": {
+            "input": {
+                "connections": []
+            }
+        },
+        "outputs": {
+            "output": {
+                "connections": [{
+                        "node": 48,
+                        "input": "input",
+                        "data": {}
+                    }
+                ]
+            }
+        },
+        "position": [0, -105],
+        "name": "send key"
+    }, {
+        "id": 48,
+        "data": {
+            "hasTargetObject": true,
+            "code": 21,
+            "testData": {
+                "targetOption": 1,
+                "targetObject": {
+                    "index": "4",
+                    "text": "Chrome",
+                    "resource-id": "com.sec.android.app.launcher:id/home_icon",
+                    "class": "android.widget.TextView",
+                    "package": "com.sec.android.app.launcher",
+                    "content-desc": "Chrome",
+                    "checkable": "false",
+                    "checked": "false",
+                    "clickable": "true",
+                    "enabled": "true",
+                    "focusable": "true",
+                    "focused": "false",
+                    "scrollable": "false",
+                    "long-clickable": "true",
+                    "password": "false",
+                    "selected": "false",
+                    "visible-to-user": "true",
+                    "bounds": "[40,1138][236,1461]",
+                    "resourceId": "com.sec.android.app.launcher:id/home_icon",
+                    "contentDesc": "Chrome"
+                },
+                "targetCoordinate": {
+                    "x": null,
+                    "y": null
+                },
+                "duration": "0",
+                "image": "",
+                "imageYn": false,
+                "targetDevices": []
+            }
+        },
+        "inputs": {
+            "input": {
+                "connections": [{
+                        "node": 46,
+                        "output": "output",
+                        "data": {}
+                    }
+                ]
+            }
+        },
+        "outputs": {
+            "output": {
+                "connections": []
+            }
+        },
+        "position": [253, -125],
+        "name": "tap"
+    }
+]
